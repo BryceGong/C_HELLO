@@ -15,8 +15,8 @@ int main()
     printf("a=%c\n",a[0]);
     printf("p1=%c\n",**p1);
     printf("p2=%c\n",**p2);
-    printf("p1+1=%c\n",**(p1+1)); //e
-    printf("p2+1=%c\n",**(p2+1)); //e
+    printf("p1+1=%c\n",**(p1+1));
+    printf("p2+1=%c\n",**(p2+1));
 
     return 0;
 }
