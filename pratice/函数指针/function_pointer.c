@@ -30,12 +30,7 @@ int * pointer_function(int * address){
     return address;
 }
 
-/**
- * 函数指针
- * @param x
- * @return
- */
-int (*function_pointer) (int x) = print;
+
 
 int print(int x){
     printf("Hello World\n");
