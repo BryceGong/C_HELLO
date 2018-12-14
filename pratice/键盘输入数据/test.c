@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *  a+i 为数组a中的第i个元素的地址，*[a+i] == a[i]
+ *  键盘输入数据
  */
 int main() {
    int a[3];
@@ -11,7 +11,7 @@ int main() {
     }
 
     for (int i = 0; i < 3 ; ++i) {
-        printf("%d ,",*(a+i));//a+i 为数组a中的第i个元素的地址，*[a+i] == a[i]
+        printf("%d ,",*[a+i]);//i 为数组a中的第i个元素的地址，*[a+i] == a[i]
     }
    return 0;
 }
